@@ -11,7 +11,23 @@
         android:orientation="vertical">
 
         <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerView"
             android:layout_width="match_parent"
-            android:layout_height="match_parent" />
+            android:layout_height="250dp" />
+
+        <Button
+            android:id="@+id/dodajBtn"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:text="Dodaj" />
+
+        <Button
+            android:id="@+id/snimajBtn"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:checkable="false"
+            android:clickable="false"
+            android:text="Snimaj" />
+
     </LinearLayout>
 </FrameLayout>
